@@ -1,0 +1,16 @@
+<h1>Usage</h1>
+
+<p>dateSpec: {{dateSpec$ | async}}</p>
+
+<p>rows: {{rows$|async}}</p>
+
+<table>
+  <tr>
+    <th>item</th>
+    <th>number</th>
+  </tr>
+  <tr *ngFor="let r of rows$ | async">
+    <td><a [routerLink]="['', 'usage', r[0]]">{{r[0]}}</a></td>
+    <td>r[1]</td>
+  </tr>
+</table>

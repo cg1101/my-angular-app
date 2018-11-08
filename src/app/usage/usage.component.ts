@@ -2,7 +2,7 @@ import { Component, OnInit, OnDestroy } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { Observable, of } from 'rxjs';
 import { map } from 'rxjs/operators';
-import { share } from 'rxjs/internal/operators';
+import { share, shareReplay } from 'rxjs/internal/operators';
 
 @Component({
   selector: 'app-usage',
@@ -20,8 +20,7 @@ export class UsageComponent implements OnInit, OnDestroy {
     // console.log(`route is`, this.route);
     this.dateSpec$ = route.paramMap.pipe(
       map(p => p.get('date')),
-      share(),
-    )
+    );
   }
 
   ngOnInit() {
@@ -38,6 +37,7 @@ export class UsageComponent implements OnInit, OnDestroy {
         ];
         return rs as [string, number][];
       }),
+      share(),
     );
     this.rows$.subscribe(rows => {
       console.log('rows =>', rows);

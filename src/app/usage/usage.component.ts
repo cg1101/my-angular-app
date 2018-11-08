@@ -2,6 +2,7 @@ import { Component, OnInit, OnDestroy } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { Observable, of } from 'rxjs';
 import { map } from 'rxjs/operators';
+import { share } from 'rxjs/internal/operators';
 
 @Component({
   selector: 'app-usage',
@@ -16,9 +17,10 @@ export class UsageComponent implements OnInit, OnDestroy {
 
   constructor(public route: ActivatedRoute) {
     console.log('UsageComponent.constructor()');
-    console.log(`route is`, this.route);
+    // console.log(`route is`, this.route);
     this.dateSpec$ = route.paramMap.pipe(
       map(p => p.get('date')),
+      share(),
     )
   }
 
@@ -26,6 +28,7 @@ export class UsageComponent implements OnInit, OnDestroy {
     console.log('UsageComponent.ngOnInit()');
     this.rows$ = this.dateSpec$.pipe(
       map(dateSpec => {
+        console.log('dataSpec changed =>', dateSpec)
         const rs = dateSpec === 'all' ? [
           ['JAN-2018', 150],
           ['FEB-2018', 200],

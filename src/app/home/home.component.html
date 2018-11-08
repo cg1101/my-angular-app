@@ -1,0 +1,11 @@
+<h1>home works!</h1>
+
+<ul>
+  <li *ngFor="let url of urls">
+    <a [routerLink]="url[1]">{{url[0]}}</a>
+  </li>
+</ul>
+
+<hr>
+
+<router-outlet></router-outlet>

@@ -1,3 +1,15 @@
-<h1>Account </h1>
+<h1>Account {{accountId$ | async}}</h1>
 
-<a [routerLink]="['usage', 'all']">View Usage</a>
+<div>
+  <h2>is service provider?</h2>
+  {{isSp$ | async}}
+</div>
+
+<div>
+  <h2>Product</h2>
+  <div *ngFor="let p of products$ | async">
+    <h3>{{p}}</h3>
+
+    <a [routerLink]="['usage', 'details', p, 'all']">View {{p}} Usage</a>
+  </div>
+</div>

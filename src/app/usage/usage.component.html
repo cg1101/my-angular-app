@@ -10,7 +10,7 @@
     <th>number</th>
   </tr>
   <tr *ngFor="let r of rows$ | async">
-    <td><a [routerLink]="['', 'usage', r[0]]">{{r[0]}}</a></td>
+    <td><a [routerLink]="['..', r[0]]">{{r[0]}}</a></td>
     <td>r[1]</td>
   </tr>
 </table>

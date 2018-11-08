@@ -7,23 +7,36 @@ import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
 import { AccountComponent } from './account/account.component';
 import { UsageComponent } from './usage/usage.component';
+import { HomeComponent } from './home/home.component';
 
 const routes: Routes = [
   {
     path: '',
-    component: AccountComponent,
+    component: HomeComponent,
+    children: [
+      {
+        path: ':accountId/account',
+        children: [
+          {
+            path: '',
+            component: AccountComponent
+          },
+          {
+            path: 'usage/details/:product/:date',
+            component: UsageComponent
+          }
+        ]
+      }
+    ]
   },
-  {
-    path: 'usage/:date',
-    component: UsageComponent,
-  }
 ];
 
 @NgModule({
   declarations: [
     AppComponent,
     AccountComponent,
-    UsageComponent
+    UsageComponent,
+    HomeComponent,
   ],
   imports: [
     BrowserModule,

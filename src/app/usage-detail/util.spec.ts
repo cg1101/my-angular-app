@@ -1,4 +1,4 @@
-import { UsageDetail } from 'app/shared/models/usage-detail';
+import { UsageDetail } from '../shared/models/usage-detail';
 import * as util from './util';
 
 import * as availableTimeFilters from './available-time-filters.json';

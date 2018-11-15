@@ -1,8 +1,9 @@
 import { TestBed, async, ComponentFixture } from '@angular/core/testing';
 import { NO_ERRORS_SCHEMA } from '@angular/core';
+import { RouterTestingModule } from '@angular/router/testing';
 import { ServiceProviderService, BreadcrumbService, ApplicationModelService } from './@ir';
-import { SubscriptionsService } from 'app/shared/services/subscriptions.service';
-import { UsageService } from 'app/shared/services/usage.service';
+import { SubscriptionsService } from '../shared/services/subscriptions.service';
+import { UsageService } from '../shared/services/usage.service';
 import { UsageDetailComponent } from './usage-detail.component';
 
 describe('UsageDetailComponent', () => {
@@ -13,6 +14,9 @@ describe('UsageDetailComponent', () => {
     TestBed.configureTestingModule({
       declarations: [
         UsageDetailComponent,
+      ],
+      imports: [
+        RouterTestingModule,
       ],
       providers: [
         ServiceProviderService,

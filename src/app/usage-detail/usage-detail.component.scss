@@ -1,0 +1,61 @@
+a {
+  cursor: pointer;
+}
+
+tr td {
+  padding-top: 20px;
+}
+
+.left-detail {
+  width: 50%;
+  float: left;
+}
+
+.right-detail {
+  width: 50%;
+  float: right;
+}
+
+.no-Entitlement {
+  width: 100%;
+}
+
+.pad-lg {
+  margin-top: 40px;
+}
+
+.text-desc-right {
+  margin-left: 10px;
+}
+
+.text-desc-left {
+  margin-right: 10px;
+}
+
+.total h2 {
+  display: inline;
+  margin-right: 5px;
+}
+
+.table-details {
+  border-bottom: 1px solid #ddd;
+}
+
+.group-row {
+  margin-bottom: 20px;
+}
+
+.first-group-row {
+  margin-top: 20px;
+}
+
+@media (max-width:767px) {
+  .text-desc-right {
+      margin-left: 0;
+  }
+
+  .row-table-sm {
+      margin-left: 0px;
+      margin-right: 0px;
+  }
+}

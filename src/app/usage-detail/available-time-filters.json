@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Nov 2018",
+    "value": "eventTime gte 1540990800000 and eventTime lt 1543582800000",
+    "category": "this month"
+  },
+  {
+    "name": "Oct 2018",
+    "value": "eventTime gte 1538316000000 and eventTime lt 1540990800000",
+    "category": "this month"
+  },
+  {
+    "name": "Sep 2018",
+    "value": "eventTime gte 1535724000000 and eventTime lt 1538316000000",
+    "category": "this month"
+  },
+  {
+    "name": "2018",
+    "value": "eventTime gte 1514725200000 and eventTime lt 1546261200000",
+    "category": "this year"
+  },
+  {
+    "name": "All time",
+    "value": "",
+    "category": "All time"
+  }
+]

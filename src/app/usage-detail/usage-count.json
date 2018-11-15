@@ -1,0 +1,10 @@
+[
+  {
+    "url": "https://usagesp-uc.prognosis.com/",
+    "name": "Cloud UC",
+    "productId": 3,
+    "usage": 4,
+    "available": 1000,
+    "detailsUrl": "/details/ucc/all"
+  }
+]

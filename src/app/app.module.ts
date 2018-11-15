@@ -8,6 +8,7 @@ import { environment } from '../environments/environment';
 import { AccountComponent } from './account/account.component';
 import { UsageComponent } from './usage/usage.component';
 import { HomeComponent } from './home/home.component';
+import { UsageDetailComponent } from './usage-detail/usage-detail.component';
 
 const routes: Routes = [
   {
@@ -26,7 +27,7 @@ const routes: Routes = [
           },
           {
             path: 'usage/details/:product/:date',
-            component: UsageComponent
+            component: UsageDetailComponent
           }
         ]
       }
@@ -40,6 +41,7 @@ const routes: Routes = [
     AccountComponent,
     UsageComponent,
     HomeComponent,
+    UsageDetailComponent,
   ],
   imports: [
     BrowserModule,

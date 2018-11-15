@@ -1,0 +1,970 @@
+[
+  {
+    "usage": 4,
+    "accountId": 1530152095668,
+    "usageId": 1536411638657,
+    "productId": 3,
+    "eventTime": 1536411638657,
+    "dateUsage": "Sep 8, 2018"
+  },
+  {
+    "usage": 4,
+    "accountId": 1530152095668,
+    "usageId": 1536498039657,
+    "productId": 3,
+    "eventTime": 1536498039657,
+    "dateUsage": "Sep 9, 2018"
+  },
+  {
+    "usage": 4,
+    "accountId": 1530152095668,
+    "usageId": 1536584447061,
+    "productId": 3,
+    "eventTime": 1536584447061,
+    "dateUsage": "Sep 10, 2018"
+  },
+  {
+    "usage": 4,
+    "accountId": 1530152095668,
+    "usageId": 1536670839223,
+    "productId": 3,
+    "eventTime": 1536670839223,
+    "dateUsage": "Sep 11, 2018"
+  },
+  {
+    "usage": 4,
+    "accountId": 1530152095668,
+    "usageId": 1536757238368,
+    "productId": 3,
+    "eventTime": 1536757238368,
+    "dateUsage": "Sep 12, 2018"
+  },
+  {
+    "usage": 4,
+    "accountId": 1530152095668,
+    "usageId": 1536843638899,
+    "productId": 3,
+    "eventTime": 1536843638899,
+    "dateUsage": "Sep 13, 2018"
+  },
+  {
+    "usage": 4,
+    "accountId": 1530152095668,
+    "usageId": 1536930038944,
+    "productId": 3,
+    "eventTime": 1536930038944,
+    "dateUsage": "Sep 14, 2018"
+  },
+  {
+    "usage": 4,
+    "accountId": 1530152095668,
+    "usageId": 1537016439320,
+    "productId": 3,
+    "eventTime": 1537016439320,
+    "dateUsage": "Sep 15, 2018"
+  },
+  {
+    "usage": 4,
+    "accountId": 1530152095668,
+    "usageId": 1537102838816,
+    "productId": 3,
+    "eventTime": 1537102838816,
+    "dateUsage": "Sep 16, 2018"
+  },
+  {
+    "usage": 4,
+    "accountId": 1530152095668,
+    "usageId": 1537189238883,
+    "productId": 3,
+    "eventTime": 1537189238883,
+    "dateUsage": "Sep 17, 2018"
+  },
+  {
+    "usage": 4,
+    "accountId": 1530152095668,
+    "usageId": 1537275639595,
+    "productId": 3,
+    "eventTime": 1537275639595,
+    "dateUsage": "Sep 18, 2018"
+  },
+  {
+    "usage": 4,
+    "accountId": 1530152095668,
+    "usageId": 1537362038609,
+    "productId": 3,
+    "eventTime": 1537362038609,
+    "dateUsage": "Sep 19, 2018"
+  },
+  {
+    "usage": 4,
+    "accountId": 1530152095668,
+    "usageId": 1537448438883,
+    "productId": 3,
+    "eventTime": 1537448438883,
+    "dateUsage": "Sep 20, 2018"
+  },
+  {
+    "usage": 4,
+    "accountId": 1530152095668,
+    "usageId": 1537534837884,
+    "productId": 3,
+    "eventTime": 1537534837883,
+    "dateUsage": "Sep 21, 2018"
+  },
+  {
+    "usage": 4,
+    "accountId": 1530152095668,
+    "usageId": 1537621238311,
+    "productId": 3,
+    "eventTime": 1537621238311,
+    "dateUsage": "Sep 22, 2018"
+  },
+  {
+    "usage": 4,
+    "accountId": 1530152095668,
+    "usageId": 1537707638628,
+    "productId": 3,
+    "eventTime": 1537707638628,
+    "dateUsage": "Sep 23, 2018"
+  },
+  {
+    "usage": 4,
+    "accountId": 1530152095668,
+    "usageId": 1537794038781,
+    "productId": 3,
+    "eventTime": 1537794038781,
+    "dateUsage": "Sep 24, 2018"
+  },
+  {
+    "usage": 4,
+    "accountId": 1530152095668,
+    "usageId": 1537880438733,
+    "productId": 3,
+    "eventTime": 1537880438733,
+    "dateUsage": "Sep 25, 2018"
+  },
+  {
+    "usage": 4,
+    "accountId": 1530152095668,
+    "usageId": 1537966839091,
+    "productId": 3,
+    "eventTime": 1537966839091,
+    "dateUsage": "Sep 26, 2018"
+  },
+  {
+    "usage": 0,
+    "accountId": 1530152095668,
+    "usageId": 1538053239479,
+    "productId": 3,
+    "eventTime": 1538053239479,
+    "dateUsage": "Sep 27, 2018"
+  },
+  {
+    "usage": 0,
+    "accountId": 1530152095668,
+    "usageId": 1538139639636,
+    "productId": 3,
+    "eventTime": 1538139639636,
+    "dateUsage": "Sep 28, 2018"
+  },
+  {
+    "usage": 0,
+    "accountId": 1530152095668,
+    "usageId": 1538226039411,
+    "productId": 3,
+    "eventTime": 1538226039411,
+    "dateUsage": "Sep 29, 2018"
+  },
+  {
+    "usage": 0,
+    "accountId": 1530152095668,
+    "usageId": 1538312439166,
+    "productId": 3,
+    "eventTime": 1538312439166,
+    "dateUsage": "Sep 30, 2018"
+  },
+  {
+    "usage": 0,
+    "accountId": 1530152095668,
+    "usageId": 1538398838711,
+    "productId": 3,
+    "eventTime": 1538398838711,
+    "dateUsage": "Oct 1, 2018"
+  },
+  {
+    "usage": 0,
+    "accountId": 1530152095668,
+    "usageId": 1538485238845,
+    "productId": 3,
+    "eventTime": 1538485238845,
+    "dateUsage": "Oct 2, 2018"
+  },
+  {
+    "usage": 0,
+    "accountId": 1530152095668,
+    "usageId": 1538571639109,
+    "productId": 3,
+    "eventTime": 1538571639108,
+    "dateUsage": "Oct 3, 2018"
+  },
+  {
+    "usage": 0,
+    "accountId": 1530152095668,
+    "usageId": 1538658039326,
+    "productId": 3,
+    "eventTime": 1538658039326,
+    "dateUsage": "Oct 4, 2018"
+  },
+  {
+    "usage": 0,
+    "accountId": 1530152095668,
+    "usageId": 1538744439087,
+    "productId": 3,
+    "eventTime": 1538744439087,
+    "dateUsage": "Oct 5, 2018"
+  },
+  {
+    "usage": 0,
+    "accountId": 1530152095668,
+    "usageId": 1538830839268,
+    "productId": 3,
+    "eventTime": 1538830839268,
+    "dateUsage": "Oct 6, 2018"
+  },
+  {
+    "usage": 0,
+    "accountId": 1530152095668,
+    "usageId": 1538917238303,
+    "productId": 3,
+    "eventTime": 1538917238303,
+    "dateUsage": "Oct 8, 2018"
+  },
+  {
+    "usage": 0,
+    "accountId": 1530152095668,
+    "usageId": 1539003646155,
+    "productId": 3,
+    "eventTime": 1539003646155,
+    "dateUsage": "Oct 9, 2018"
+  },
+  {
+    "usage": 0,
+    "accountId": 1530152095668,
+    "usageId": 1539090039396,
+    "productId": 3,
+    "eventTime": 1539090039396,
+    "dateUsage": "Oct 10, 2018"
+  },
+  {
+    "usage": 0,
+    "accountId": 1530152095668,
+    "usageId": 1539176438706,
+    "productId": 3,
+    "eventTime": 1539176438706,
+    "dateUsage": "Oct 11, 2018"
+  },
+  {
+    "usage": 0,
+    "accountId": 1530152095668,
+    "usageId": 1539262838651,
+    "productId": 3,
+    "eventTime": 1539262838651,
+    "dateUsage": "Oct 12, 2018"
+  },
+  {
+    "usage": 0,
+    "accountId": 1530152095668,
+    "usageId": 1539349238643,
+    "productId": 3,
+    "eventTime": 1539349238643,
+    "dateUsage": "Oct 13, 2018"
+  },
+  {
+    "usage": 0,
+    "accountId": 1530152095668,
+    "usageId": 1539435639184,
+    "productId": 3,
+    "eventTime": 1539435639184,
+    "dateUsage": "Oct 14, 2018"
+  },
+  {
+    "usage": 0,
+    "accountId": 1530152095668,
+    "usageId": 1539522038379,
+    "productId": 3,
+    "eventTime": 1539522038379,
+    "dateUsage": "Oct 15, 2018"
+  },
+  {
+    "usage": 0,
+    "accountId": 1530152095668,
+    "usageId": 1539608438796,
+    "productId": 3,
+    "eventTime": 1539608438796,
+    "dateUsage": "Oct 16, 2018"
+  },
+  {
+    "usage": 0,
+    "accountId": 1530152095668,
+    "usageId": 1539694838396,
+    "productId": 3,
+    "eventTime": 1539694838396,
+    "dateUsage": "Oct 17, 2018"
+  },
+  {
+    "usage": 0,
+    "accountId": 1530152095668,
+    "usageId": 1539781238555,
+    "productId": 3,
+    "eventTime": 1539781238555,
+    "dateUsage": "Oct 18, 2018"
+  },
+  {
+    "usage": 0,
+    "accountId": 1530152095668,
+    "usageId": 1539867639147,
+    "productId": 3,
+    "eventTime": 1539867639147,
+    "dateUsage": "Oct 19, 2018"
+  },
+  {
+    "usage": 0,
+    "accountId": 1530152095668,
+    "usageId": 1539954047195,
+    "productId": 3,
+    "eventTime": 1539954047195,
+    "dateUsage": "Oct 20, 2018"
+  },
+  {
+    "usage": 0,
+    "accountId": 1530152095668,
+    "usageId": 1540040438662,
+    "productId": 3,
+    "eventTime": 1540040438662,
+    "dateUsage": "Oct 21, 2018"
+  },
+  {
+    "usage": 0,
+    "accountId": 1530152095668,
+    "usageId": 1540126838710,
+    "productId": 3,
+    "eventTime": 1540126838710,
+    "dateUsage": "Oct 22, 2018"
+  },
+  {
+    "usage": 0,
+    "accountId": 1530152095668,
+    "usageId": 1540213239249,
+    "productId": 3,
+    "eventTime": 1540213239249,
+    "dateUsage": "Oct 23, 2018"
+  },
+  {
+    "usage": 0,
+    "accountId": 1530152095668,
+    "usageId": 1540299637981,
+    "productId": 3,
+    "eventTime": 1540299637981,
+    "dateUsage": "Oct 24, 2018"
+  },
+  {
+    "usage": 0,
+    "accountId": 1530152095668,
+    "usageId": 1540386038337,
+    "productId": 3,
+    "eventTime": 1540386038337,
+    "dateUsage": "Oct 25, 2018"
+  },
+  {
+    "usage": 0,
+    "accountId": 1530152095668,
+    "usageId": 1540472439386,
+    "productId": 3,
+    "eventTime": 1540472439386,
+    "dateUsage": "Oct 26, 2018"
+  },
+  {
+    "usage": 0,
+    "accountId": 1530152095668,
+    "usageId": 1540558838308,
+    "productId": 3,
+    "eventTime": 1540558838308,
+    "dateUsage": "Oct 27, 2018"
+  },
+  {
+    "usage": 0,
+    "accountId": 1530152095668,
+    "usageId": 1540645238971,
+    "productId": 3,
+    "eventTime": 1540645238971,
+    "dateUsage": "Oct 28, 2018"
+  },
+  {
+    "usage": 0,
+    "accountId": 1530152095668,
+    "usageId": 1540731638922,
+    "productId": 3,
+    "eventTime": 1540731638922,
+    "dateUsage": "Oct 29, 2018"
+  },
+  {
+    "usage": 0,
+    "accountId": 1530152095668,
+    "usageId": 1540818038763,
+    "productId": 3,
+    "eventTime": 1540818038763,
+    "dateUsage": "Oct 30, 2018"
+  },
+  {
+    "usage": 0,
+    "accountId": 1530152095668,
+    "usageId": 1540904438703,
+    "productId": 3,
+    "eventTime": 1540904438703,
+    "dateUsage": "Oct 31, 2018"
+  },
+  {
+    "usage": 0,
+    "accountId": 1530152095668,
+    "usageId": 1540990838340,
+    "productId": 3,
+    "eventTime": 1540990838340,
+    "dateUsage": "Nov 1, 2018"
+  },
+  {
+    "usage": 0,
+    "accountId": 1530152095668,
+    "usageId": 1541077238416,
+    "productId": 3,
+    "eventTime": 1541077238416,
+    "dateUsage": "Nov 2, 2018"
+  },
+  {
+    "usage": 0,
+    "accountId": 1530152095668,
+    "usageId": 1541163638248,
+    "productId": 3,
+    "eventTime": 1541163638248,
+    "dateUsage": "Nov 3, 2018"
+  },
+  {
+    "usage": 0,
+    "accountId": 1530152095668,
+    "usageId": 1541250037926,
+    "productId": 3,
+    "eventTime": 1541250037926,
+    "dateUsage": "Nov 4, 2018"
+  },
+  {
+    "usage": 0,
+    "accountId": 1530152095668,
+    "usageId": 1541336438843,
+    "productId": 3,
+    "eventTime": 1541336438843,
+    "dateUsage": "Nov 5, 2018"
+  },
+  {
+    "usage": 0,
+    "accountId": 1530152095668,
+    "usageId": 1541422845965,
+    "productId": 3,
+    "eventTime": 1541422845965,
+    "dateUsage": "Nov 6, 2018"
+  },
+  {
+    "usage": 10,
+    "accountId": 1535519604193,
+    "usageId": 1536152437164,
+    "productId": 3,
+    "eventTime": 1536152436628,
+    "dateUsage": "Sep 5, 2018"
+  },
+  {
+    "usage": 10,
+    "accountId": 1535519604193,
+    "usageId": 1536238836229,
+    "productId": 3,
+    "eventTime": 1536238835746,
+    "dateUsage": "Sep 6, 2018"
+  },
+  {
+    "usage": 10,
+    "accountId": 1535519604193,
+    "usageId": 1536325236360,
+    "productId": 3,
+    "eventTime": 1536325235781,
+    "dateUsage": "Sep 7, 2018"
+  },
+  {
+    "usage": 10,
+    "accountId": 1535519604193,
+    "usageId": 1536411636221,
+    "productId": 3,
+    "eventTime": 1536411635660,
+    "dateUsage": "Sep 8, 2018"
+  },
+  {
+    "usage": 10,
+    "accountId": 1535519604193,
+    "usageId": 1536498037206,
+    "productId": 3,
+    "eventTime": 1536498036645,
+    "dateUsage": "Sep 9, 2018"
+  },
+  {
+    "usage": 10,
+    "accountId": 1535519604193,
+    "usageId": 1536584444647,
+    "productId": 3,
+    "eventTime": 1536584444109,
+    "dateUsage": "Sep 10, 2018"
+  },
+  {
+    "usage": 10,
+    "accountId": 1535519604193,
+    "usageId": 1536670836828,
+    "productId": 3,
+    "eventTime": 1536670836030,
+    "dateUsage": "Sep 11, 2018"
+  },
+  {
+    "usage": 10,
+    "accountId": 1535519604193,
+    "usageId": 1536757235939,
+    "productId": 3,
+    "eventTime": 1536757235296,
+    "dateUsage": "Sep 12, 2018"
+  },
+  {
+    "usage": 10,
+    "accountId": 1535519604193,
+    "usageId": 1536843636554,
+    "productId": 3,
+    "eventTime": 1536843636052,
+    "dateUsage": "Sep 13, 2018"
+  },
+  {
+    "usage": 10,
+    "accountId": 1535519604193,
+    "usageId": 1536930036547,
+    "productId": 3,
+    "eventTime": 1536930036066,
+    "dateUsage": "Sep 14, 2018"
+  },
+  {
+    "usage": 10,
+    "accountId": 1535519604193,
+    "usageId": 1537016436848,
+    "productId": 3,
+    "eventTime": 1537016436287,
+    "dateUsage": "Sep 15, 2018"
+  },
+  {
+    "usage": 10,
+    "accountId": 1535519604193,
+    "usageId": 1537102836392,
+    "productId": 3,
+    "eventTime": 1537102835911,
+    "dateUsage": "Sep 16, 2018"
+  },
+  {
+    "usage": 10,
+    "accountId": 1535519604193,
+    "usageId": 1537189236264,
+    "productId": 3,
+    "eventTime": 1537189235663,
+    "dateUsage": "Sep 17, 2018"
+  },
+  {
+    "usage": 10,
+    "accountId": 1535519604193,
+    "usageId": 1537275637187,
+    "productId": 3,
+    "eventTime": 1537275636605,
+    "dateUsage": "Sep 18, 2018"
+  },
+  {
+    "usage": 10,
+    "accountId": 1535519604193,
+    "usageId": 1537362036037,
+    "productId": 3,
+    "eventTime": 1537362035515,
+    "dateUsage": "Sep 19, 2018"
+  },
+  {
+    "usage": 10,
+    "accountId": 1535519604193,
+    "usageId": 1537448436556,
+    "productId": 3,
+    "eventTime": 1537448436020,
+    "dateUsage": "Sep 20, 2018"
+  },
+  {
+    "usage": 10,
+    "accountId": 1535519604193,
+    "usageId": 1537534835508,
+    "productId": 3,
+    "eventTime": 1537534835025,
+    "dateUsage": "Sep 21, 2018"
+  },
+  {
+    "usage": 10,
+    "accountId": 1535519604193,
+    "usageId": 1537621235970,
+    "productId": 3,
+    "eventTime": 1537621235430,
+    "dateUsage": "Sep 22, 2018"
+  },
+  {
+    "usage": 10,
+    "accountId": 1535519604193,
+    "usageId": 1537707636232,
+    "productId": 3,
+    "eventTime": 1537707635731,
+    "dateUsage": "Sep 23, 2018"
+  },
+  {
+    "usage": 10,
+    "accountId": 1535519604193,
+    "usageId": 1537794036339,
+    "productId": 3,
+    "eventTime": 1537794035757,
+    "dateUsage": "Sep 24, 2018"
+  },
+  {
+    "usage": 10,
+    "accountId": 1535519604193,
+    "usageId": 1537880436333,
+    "productId": 3,
+    "eventTime": 1537880435770,
+    "dateUsage": "Sep 25, 2018"
+  },
+  {
+    "usage": 10,
+    "accountId": 1535519604193,
+    "usageId": 1537966836635,
+    "productId": 3,
+    "eventTime": 1537966836072,
+    "dateUsage": "Sep 26, 2018"
+  },
+  {
+    "usage": 0,
+    "accountId": 1535519604193,
+    "usageId": 1538053236868,
+    "productId": 3,
+    "eventTime": 1538053236326,
+    "dateUsage": "Sep 27, 2018"
+  },
+  {
+    "usage": 0,
+    "accountId": 1535519604193,
+    "usageId": 1538139637217,
+    "productId": 3,
+    "eventTime": 1538139636576,
+    "dateUsage": "Sep 28, 2018"
+  },
+  {
+    "usage": 0,
+    "accountId": 1535519604193,
+    "usageId": 1538226036954,
+    "productId": 3,
+    "eventTime": 1538226036411,
+    "dateUsage": "Sep 29, 2018"
+  },
+  {
+    "usage": 0,
+    "accountId": 1535519604193,
+    "usageId": 1538312436744,
+    "productId": 3,
+    "eventTime": 1538312436142,
+    "dateUsage": "Sep 30, 2018"
+  },
+  {
+    "usage": 0,
+    "accountId": 1535519604193,
+    "usageId": 1538398836232,
+    "productId": 3,
+    "eventTime": 1538398835709,
+    "dateUsage": "Oct 1, 2018"
+  },
+  {
+    "usage": 0,
+    "accountId": 1535519604193,
+    "usageId": 1538485236512,
+    "productId": 3,
+    "eventTime": 1538485235911,
+    "dateUsage": "Oct 2, 2018"
+  },
+  {
+    "usage": 0,
+    "accountId": 1535519604193,
+    "usageId": 1538571636763,
+    "productId": 3,
+    "eventTime": 1538571636164,
+    "dateUsage": "Oct 3, 2018"
+  },
+  {
+    "usage": 0,
+    "accountId": 1535519604193,
+    "usageId": 1538658036904,
+    "productId": 3,
+    "eventTime": 1538658036362,
+    "dateUsage": "Oct 4, 2018"
+  },
+  {
+    "usage": 0,
+    "accountId": 1535519604193,
+    "usageId": 1538744436539,
+    "productId": 3,
+    "eventTime": 1538744435979,
+    "dateUsage": "Oct 5, 2018"
+  },
+  {
+    "usage": 0,
+    "accountId": 1535519604193,
+    "usageId": 1538830836530,
+    "productId": 3,
+    "eventTime": 1538830835988,
+    "dateUsage": "Oct 6, 2018"
+  },
+  {
+    "usage": 0,
+    "accountId": 1535519604193,
+    "usageId": 1538917235928,
+    "productId": 3,
+    "eventTime": 1538917235291,
+    "dateUsage": "Oct 8, 2018"
+  },
+  {
+    "usage": 0,
+    "accountId": 1535519604193,
+    "usageId": 1539003643718,
+    "productId": 3,
+    "eventTime": 1539003643177,
+    "dateUsage": "Oct 9, 2018"
+  },
+  {
+    "usage": 0,
+    "accountId": 1535519604193,
+    "usageId": 1539090037046,
+    "productId": 3,
+    "eventTime": 1539090036485,
+    "dateUsage": "Oct 10, 2018"
+  },
+  {
+    "usage": 0,
+    "accountId": 1535519604193,
+    "usageId": 1539176436360,
+    "productId": 3,
+    "eventTime": 1539176435842,
+    "dateUsage": "Oct 11, 2018"
+  },
+  {
+    "usage": 0,
+    "accountId": 1535519604193,
+    "usageId": 1539262836233,
+    "productId": 3,
+    "eventTime": 1539262835676,
+    "dateUsage": "Oct 12, 2018"
+  },
+  {
+    "usage": 0,
+    "accountId": 1535519604193,
+    "usageId": 1539349236205,
+    "productId": 3,
+    "eventTime": 1539349235708,
+    "dateUsage": "Oct 13, 2018"
+  },
+  {
+    "usage": 0,
+    "accountId": 1535519604193,
+    "usageId": 1539435636781,
+    "productId": 3,
+    "eventTime": 1539435636201,
+    "dateUsage": "Oct 14, 2018"
+  },
+  {
+    "usage": 0,
+    "accountId": 1535519604193,
+    "usageId": 1539522035992,
+    "productId": 3,
+    "eventTime": 1539522035451,
+    "dateUsage": "Oct 15, 2018"
+  },
+  {
+    "usage": 0,
+    "accountId": 1535519604193,
+    "usageId": 1539608436445,
+    "productId": 3,
+    "eventTime": 1539608435884,
+    "dateUsage": "Oct 16, 2018"
+  },
+  {
+    "usage": 0,
+    "accountId": 1535519604193,
+    "usageId": 1539694836337,
+    "productId": 3,
+    "eventTime": 1539694835795,
+    "dateUsage": "Oct 17, 2018"
+  },
+  {
+    "usage": 0,
+    "accountId": 1535519604193,
+    "usageId": 1539781236497,
+    "productId": 3,
+    "eventTime": 1539781235955,
+    "dateUsage": "Oct 18, 2018"
+  },
+  {
+    "usage": 0,
+    "accountId": 1535519604193,
+    "usageId": 1539867637059,
+    "productId": 3,
+    "eventTime": 1539867636496,
+    "dateUsage": "Oct 19, 2018"
+  },
+  {
+    "usage": 0,
+    "accountId": 1535519604193,
+    "usageId": 1539954045033,
+    "productId": 3,
+    "eventTime": 1539954044432,
+    "dateUsage": "Oct 20, 2018"
+  },
+  {
+    "usage": 0,
+    "accountId": 1535519604193,
+    "usageId": 1540040436511,
+    "productId": 3,
+    "eventTime": 1540040435988,
+    "dateUsage": "Oct 21, 2018"
+  },
+  {
+    "usage": 0,
+    "accountId": 1535519604193,
+    "usageId": 1540126836576,
+    "productId": 3,
+    "eventTime": 1540126836001,
+    "dateUsage": "Oct 22, 2018"
+  },
+  {
+    "usage": 0,
+    "accountId": 1535519604193,
+    "usageId": 1540213236865,
+    "productId": 3,
+    "eventTime": 1540213236282,
+    "dateUsage": "Oct 23, 2018"
+  },
+  {
+    "usage": 0,
+    "accountId": 1535519604193,
+    "usageId": 1540299635894,
+    "productId": 3,
+    "eventTime": 1540299635392,
+    "dateUsage": "Oct 24, 2018"
+  },
+  {
+    "usage": 0,
+    "accountId": 1535519604193,
+    "usageId": 1540386036259,
+    "productId": 3,
+    "eventTime": 1540386035776,
+    "dateUsage": "Oct 25, 2018"
+  },
+  {
+    "usage": 0,
+    "accountId": 1535519604193,
+    "usageId": 1540472437283,
+    "productId": 3,
+    "eventTime": 1540472436721,
+    "dateUsage": "Oct 26, 2018"
+  },
+  {
+    "usage": 0,
+    "accountId": 1535519604193,
+    "usageId": 1540558836224,
+    "productId": 3,
+    "eventTime": 1540558835681,
+    "dateUsage": "Oct 27, 2018"
+  },
+  {
+    "usage": 0,
+    "accountId": 1535519604193,
+    "usageId": 1540645236904,
+    "productId": 3,
+    "eventTime": 1540645236362,
+    "dateUsage": "Oct 28, 2018"
+  },
+  {
+    "usage": 0,
+    "accountId": 1535519604193,
+    "usageId": 1540731636722,
+    "productId": 3,
+    "eventTime": 1540731636179,
+    "dateUsage": "Oct 29, 2018"
+  },
+  {
+    "usage": 0,
+    "accountId": 1535519604193,
+    "usageId": 1540818036630,
+    "productId": 3,
+    "eventTime": 1540818036068,
+    "dateUsage": "Oct 30, 2018"
+  },
+  {
+    "usage": 0,
+    "accountId": 1535519604193,
+    "usageId": 1540904436536,
+    "productId": 3,
+    "eventTime": 1540904435778,
+    "dateUsage": "Oct 31, 2018"
+  },
+  {
+    "usage": 0,
+    "accountId": 1535519604193,
+    "usageId": 1540990836208,
+    "productId": 3,
+    "eventTime": 1540990835688,
+    "dateUsage": "Nov 1, 2018"
+  },
+  {
+    "usage": 0,
+    "accountId": 1535519604193,
+    "usageId": 1541077236357,
+    "productId": 3,
+    "eventTime": 1541077235853,
+    "dateUsage": "Nov 2, 2018"
+  },
+  {
+    "usage": 0,
+    "accountId": 1535519604193,
+    "usageId": 1541163636196,
+    "productId": 3,
+    "eventTime": 1541163635642,
+    "dateUsage": "Nov 3, 2018"
+  },
+  {
+    "usage": 0,
+    "accountId": 1535519604193,
+    "usageId": 1541250035806,
+    "productId": 3,
+    "eventTime": 1541250035267,
+    "dateUsage": "Nov 4, 2018"
+  },
+  {
+    "usage": 0,
+    "accountId": 1535519604193,
+    "usageId": 1541336436736,
+    "productId": 3,
+    "eventTime": 1541336436121,
+    "dateUsage": "Nov 5, 2018"
+  },
+  {
+    "usage": 0,
+    "accountId": 1535519604193,
+    "usageId": 1541422843868,
+    "productId": 3,
+    "eventTime": 1541422843366,
+    "dateUsage": "Nov 6, 2018"
+  }
+]

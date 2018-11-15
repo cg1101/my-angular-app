@@ -1,0 +1,107 @@
+<h1 class="page-heading">{{title}}</h1>
+
+<!--<app-error-message [errorMessage]="errorMessagerMessage$ | async"></app-error-message>-->
+
+<ng-container [ngTemplateOutlet]="(isBusy$ | async) ? contentLoading : contentLoaded" [ngTemplateOutletContext]="{
+                summaryContext: summaryContext$ | async,
+                chartContext: {
+                  availableTimeFilters: availableTimeFilters$ | async,
+                  chartData: (usageDetails$ | async) || [],
+                  timeFilterInUse: timeFilterInUse$ | async,
+                  onMessage: onChartMessage
+                },
+                tableContext: {
+                  rows: rows$ | async,
+                  columns: [
+                    {label: 'Date', key: 'key'},
+                    {label:'Monitored users', key: 'data'}
+                  ]
+                }
+              }"></ng-container>
+
+<!-- content loading -->
+<ng-template #contentLoading>
+  <!--<ir-loading [loadData]="{ isEmbedded: true, numberOfBalls: 2 }"></ir-loading>-->
+</ng-template>
+
+<!-- content loaded -->
+<ng-template #contentLoaded let-summaryContext="summaryContext" let-chartContext="chartContext" let-tableContext="tableContext">
+  <div class="pad-lg">
+    <ng-container *ngTemplateOutlet="summary; context: summaryContext"></ng-container>
+
+    <div class="row row-table-sm">
+      <ng-container *ngIf="chartContext?.chartData?.length !== 0; else noUsageFound">
+        <ng-container *ngTemplateOutlet="usageChart; context: chartContext"></ng-container>
+
+        <ng-container *ngTemplateOutlet="usageTable; context: tableContext"></ng-container>
+      </ng-container>
+    </div>
+  </div>
+</ng-template>
+
+<!-- summary -->
+<ng-template #summary let-showEntitlement="showEntitlement" let-timeCategory="timeCategory" let-usage="usage"
+  let-entitlement="entitlement">
+  <div class="panel panel-default left-detail" [ngClass]="{'no-Entitlement': !showEntitlement}">
+    <div class="panel-body">
+      <span class="text-muted text-muted-sm">Consumption ({{timeCategory}})</span>
+      <div class="total">
+        <h2>{{usage}}</h2>
+        <span>monitored users</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="panel panel-default right-detail" *ngIf="showEntitlement">
+    <div class="panel-body">
+      <span class="text-muted text-muted-sm">Entitlement</span>
+      <div class="total">
+        <h2>{{entitlement}}</h2>
+        <span>monitored users</span>
+      </div>
+    </div>
+  </div>
+</ng-template>
+
+<!-- usage chart -->
+<ng-template #usageChart let-availableTimeFilters="availableTimeFilters" let-chartData="chartData" let-timeFilterInUse="timeFilterInUse"
+  let-onMessage="onMessage">
+  <!--<app-sfb-usage-chart (message)="onMessage($event)" [chartData]="chartData" [filterTimes]="availableTimeFilters"-->
+    <!--[timeCategory]="timeFilterInUse">-->
+  <!--</app-sfb-usage-chart>-->
+</ng-template>
+
+<!-- usage data table -->
+<ng-template #usageTable let-rows="rows" let-columns="columns">
+  <div class="col-md-12 table-responsive">
+    <table class="table table-details">
+      <thead>
+        <tr>
+          <th *ngFor="let c of columns">{{c.label}}</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let row of rows">
+          <td *ngFor="let c of columns; first as first">
+            <ng-container [ngSwitch]="first">
+              <ng-template [ngSwitchCase]="true">
+                <a *ngIf="row.link" [routerLink]="row.link">{{row[c.key]}}</a>
+                <ng-container *ngIf="!row.link">{{row[c.key]}}</ng-container>
+              </ng-template>
+              <ng-template ngSwitchDefault>
+                {{row[c.key]}}
+              </ng-template>
+            </ng-container>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</ng-template>
+
+<!-- no data -->
+<ng-template #noUsageFound>
+  <div class="col-md-12">
+    <h4>You have no recorded usage</h4>
+  </div>
+</ng-template>

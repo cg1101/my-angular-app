@@ -9,6 +9,7 @@ import { AccountComponent } from './account/account.component';
 import { UsageComponent } from './usage/usage.component';
 import { HomeComponent } from './home/home.component';
 import { UsageDetailComponent } from './usage-detail/usage-detail.component';
+import { ChartDemoComponent } from './chart-demo/chart-demo.component';
 
 const routes: Routes = [
   {
@@ -23,13 +24,17 @@ const routes: Routes = [
         children: [
           {
             path: '',
-            component: AccountComponent
+            component: AccountComponent,
           },
           {
             path: 'usage/details/:product/:date',
-            component: UsageDetailComponent
+            component: UsageDetailComponent,
           }
         ]
+      },
+      {
+        path: 'chart',
+        component: ChartDemoComponent,
       }
     ]
   },
@@ -42,6 +47,7 @@ const routes: Routes = [
     UsageComponent,
     HomeComponent,
     UsageDetailComponent,
+    ChartDemoComponent,
   ],
   imports: [
     BrowserModule,

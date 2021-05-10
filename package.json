@@ -22,7 +22,7 @@
     "@angular/pwa": "^0.1102.12",
     "@angular/router": "^11.2.13",
     "@angular/service-worker": "^11.2.13",
-    "core-js": "^3.11.1",
+    "core-js": "^3.12.1",
     "highcharts": "^9.1.0",
     "highcharts-angular": "^2.10.0",
     "rxjs": "^7.0.0",
